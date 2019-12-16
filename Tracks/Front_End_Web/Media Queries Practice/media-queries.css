@@ -3,6 +3,7 @@
 ==================================================== */
 
 /* Target viewport sizes less than 576px */
+@media (max-width: 575px) {  
 
 
   header {
@@ -21,9 +22,10 @@
     display: none;
   }
 
-
+}
 /* Target viewport sizes 576px and wider */
 
+@media (min-width: 576px) {
 
   .logo {
     float: left;
@@ -39,18 +41,20 @@
     margin-bottom: 1.5em;
   }
 
-
+}
 /* Target a viewport range wider than 575px and narrower than 992px */
 
+@media (min-width: 576px) and (max-width: 991px) { 
 
   nav {
     float: left;
     margin-left: 20px;
   }
 
-
+}
 /* Target viewport sizes 768px and wider */
 
+@media (min-width: 768px) {
 
   .articles {
     float: left;
@@ -60,12 +64,13 @@
     float: right;
     width: 30%;
   }
-
+}
 
 /* Target viewport sizes 992px and wider */
 
+@media (min-width: 992px) {
 
   nav {
     float: right;
   }
-
+}
