@@ -6,15 +6,17 @@
 // console.log(visitorName);
 // document.write(message.toUpperCase());
 
-var secondsPerMin = 60;
-var minsPerHour = 60;
-var hoursPerDay = 24;
-var daysPerWeek = 7;
-var weeksPerYear = 52;
-var secondsPerDay = secondsPerMin * minsPerHour * hoursPerDay;
-document.write('<p>There are ' + secondsPerDay + ' seconds in a day</p>');
+// var secondsPerMin = 60;
+// var minsPerHour = 60;
+// var hoursPerDay = 24;
+// var daysPerWeek = 7;
+// var weeksPerYear = 52;
+// var secondsPerDay = secondsPerMin * minsPerHour * hoursPerDay;
+// document.write('<p>There are ' + secondsPerDay + ' seconds in a day</p>');
 
-var HTMLBadges = prompt("How mnay HTML badges do you have?");
-var CSSBadges = prompt('How many CSS badges do you have?');
-var totalBadges = parseInt(HTMLBadges) + parseInt(CSSBadges);
-alert('Wow! you have ' + totalBadges + ' badges!');
+// var HTMLBadges = prompt("How mnay HTML badges do you have?");
+// var CSSBadges = prompt('How many CSS badges do you have?');
+// var totalBadges = parseInt(HTMLBadges) + parseInt(CSSBadges);
+// alert('Wow! you have ' + totalBadges + ' badges!');
+
+document.write(Math.round(2.2));
