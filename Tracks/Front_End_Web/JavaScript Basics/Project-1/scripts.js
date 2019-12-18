@@ -19,4 +19,8 @@
 // var totalBadges = parseInt(HTMLBadges) + parseInt(CSSBadges);
 // alert('Wow! you have ' + totalBadges + ' badges!');
 
-document.write(Math.round(2.2));
+// document.write(Math.round(2.2));
+// Math.floor(Math.random() * 6) + 1;
+
+var dieRoll = Math.floor(Math.random() * 6) + 1;
+alert('You rolled a ' + dieRoll);
