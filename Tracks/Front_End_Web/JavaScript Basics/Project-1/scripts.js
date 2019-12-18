@@ -22,5 +22,13 @@
 // document.write(Math.round(2.2));
 // Math.floor(Math.random() * 6) + 1;
 
-var dieRoll = Math.floor(Math.random() * 6) + 1;
-alert('You rolled a ' + dieRoll);
+// var dieRoll = Math.floor(Math.random() * 6) + 1;
+// alert('You rolled a ' + dieRoll);
+
+//Quiz
+var answer = prompt('What programming language is the name of a gem?');
+if (answer.toUpperCase() === "RUBY") {
+    document.write("<p>That's right!</p>");
+} else {
+    document.write("<p>Sorry, that's wrong.</p>")
+}
