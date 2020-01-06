@@ -26,9 +26,30 @@
 // alert('You rolled a ' + dieRoll);
 
 //Quiz
-var answer = prompt('What programming language is the name of a gem?');
-if (answer.toUpperCase() === "RUBY") {
-    document.write("<p>That's right!</p>");
-} else {
-    document.write("<p>Sorry, that's wrong.</p>")
-}
+// var answer = prompt('What programming language is the name of a gem?');
+// if (answer.toUpperCase() === "RUBY") {
+//     document.write("<p>That's right!</p>");
+// } else {
+//     document.write("<p>Sorry, that's wrong.</p>")
+// }
+
+ var correctGuess = false;
+ var randomNumber = Math.floor(Math.random() * 6 ) + 1;
+ var guess = prompt('I am thinking of a number between 1 and 6. What is i?');
+
+ if (parseInt(guess) === randomNumber) {
+     correctGuess = true;
+ }   
+
+ if (correctGuess) {
+     document.write('<p>You guessed the number!</P>');
+ } else {
+     document.write('<p>Sorry. the number was ' + randomNumber + '</p>');
+ }
+
+// if (false) {
+//     document.write('The condition is true');
+// } else {
+//     document.write('The condition is false');
+// }
+
