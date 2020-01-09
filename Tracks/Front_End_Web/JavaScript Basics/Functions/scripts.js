@@ -6,14 +6,14 @@
 
 // alertRandom();
 
-function getRandomNumber() {
-    var randomNumber = Math.floor(Math.random() * 6) + 1;
-    return randomNumber
-}
+// function getRandomNumber() {
+//     var randomNumber = Math.floor(Math.random() * 6) + 1;
+//     return randomNumber
+// }
 
-alert( getRandomNumber);
-console.log(getRandomNumber);
-var getRandomNumber;
+// alert( getRandomNumber);
+// console.log(getRandomNumber);
+// var getRandomNumber;
 
 
 // Check if Email is Empty
@@ -40,3 +40,21 @@ var getRandomNumber;
 // };
 
 // alertRandom();
+
+function getRandomNumber(upper) {
+    var randomNumber = Math.floor(Math.random() * upper) + 1;
+    return randomNumber
+}
+// console.log(getRandomNumber(10) );
+// console.log(getRandomNumber(1000) );
+// console.log(getRandomNumber(20) );
+// console.log(getRandomNumber(100) );
+// console.log(getRandomNumber(50) );
+
+function getArea(width, length, unit )  {
+    var area = width * length;
+    return area + " " + unit;
+}
+
+console.log(getArea(10, 20, 'sq ft'));
+
