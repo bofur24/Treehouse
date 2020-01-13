@@ -28,10 +28,53 @@
 //    -- Volume of a spehere with a radius of 7.2: 1563.4575663561109
 
 
+// My Work
 
+function rectangleArea(width, height) {
+    var area = width * height;
+    return area;
+    
+}
 
+function rectanglePrism(width, height, length) {
+    var volume = width * height * length;
+    return volume;
+}
 
+function circleArea(radius) {
+    var area = Math.PI * Math.pow(radius, 2);
+    return area;
+}
 
+ function sphereVolume(radius) {
+     var volume = 4/3 * Math.PI * Math.pow(radius, 3)
+     return volume;
+ }
 
+console.log('Area of rectangle that is 5 wide and 22 tall: ' + rectangleArea(5, 22));
+console.log('Volume of a rectangular prism that is 4.5 x 12.5 x 17.4: ' + rectanglePrism(4.5, 12.5, 17.4));
+console.log('Area of a circle that with a radius of 7.2: ' + circleArea(7.2));
+console.log('Volume of a spehere with a radius of 7.2: ' + sphereVolume(7.2));
 
+// Answer
 
+function areaRectangle(width, height) {
+    return width * height;
+}
+
+function volRectangle(width, height, length) {
+    return width * height * length;
+}
+
+function areaCircle(radius) {
+    return Math.PI * Math.pow(radius,2);
+}
+
+function volSphere(radius) {
+    return (4/3) * Math.PI * Math.pow(radius, 3);
+}
+
+console.log(areaRectangle(5, 22));
+console.log(volRectangle(4.5, 12.5, 17.4));
+console.log(areaCircle(7.2));
+console.log(volSphere(7.2));
