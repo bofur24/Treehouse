@@ -7,7 +7,9 @@
   Make sure the floats follow the HTML source order.
 */
 
-
+nav li {
+  float: left;
+}
  
 
 
@@ -17,7 +19,12 @@
 */
 
 
-
+.img-featured {
+  float: right;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
  
 
 
@@ -26,7 +33,10 @@
   Apply a 20 pixel right margin.    
 */
 
-
+.img-article {
+  float: left;
+  margin-right: 20px;
+}
 
 
 
@@ -36,7 +46,10 @@
   Adjust the width of '.article-content' so that both elements are laid out side by side.
 */
 
-
+.article-content {
+  float: right; 
+  width: 70%; /* 78% is correct */
+}
 
 
 
@@ -57,10 +70,37 @@
 */
 
 
+header {
+  text-align: center;
+}
 
+/* Solution */
 
+nav li {
+  float: left;
+}
 
+.img-featured {
+  float: right;
+  margin: 15px 0 15px 15px;
+}
 
+.img-article {
+  float: left;
+  margin-right: 20px;
+}
 
+.article-content {
+  float: left;
+  width: 78%;
+}
+
+header {
+  text-align: center;
+}
+
+nav {
+  display: inline-block;
+}
 
 
