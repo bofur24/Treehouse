@@ -86,7 +86,7 @@ a {
     padding-bottom: 1.5em;
     background: #3acec2;
     margin-bottom: 30px;
-
+    
 }
 
 .main-footer {
@@ -115,12 +115,42 @@ a {
         margin: 0 auto;
     }
 
-    .name,
+    /* .name,
     .main-nav li{
         display: inline-block;
+    } */
+
+    /* .name {
+        width: 240px;
+    } */
+
+    .main-nav {
+        float: right;
+    }
+
+    .main-nav li {
+        float: left;
+        margin-left: 12px;
     }
 
     .name {
-        width: 240px;
+        float: left;
     }
+
+    .feat-img {
+        width: 300px;
+        float: left;
+        margin-top: 5px;
+        margin-right: 25px;
+        margin-bottom: 25px;
+        padding: 10px;
+        border: solid 1px #d9e4ea;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
 }
