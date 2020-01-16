@@ -1,0 +1,167 @@
+/*
+  If you get stuck, feel free to watch the follow-up videos where I'll show you one solution
+*/
+
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Varela Round', sans-serif;
+	line-height: 1.6;
+	color: #3a3a3a;
+}
+
+p {
+	font-size: .95em;
+	margin-bottom: 1.8em;
+}
+
+h2,
+h3,
+a {
+	color: #093a58;
+}
+
+h2,
+h3 {
+	margin-top: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+.name {
+	font-size: 1.25em;
+}
+
+.name a,
+.main-nav a {
+	text-align: center;
+	display: block;
+	padding: .75em;
+}
+
+.main-nav a {
+	font-size: .95em;
+	color: #3acec2;
+	text-transform: uppercase;
+}
+
+.main-nav a:hover {
+	color: #093a58;
+}
+
+/* ---- Layout Containers ---- */
+.container {
+	margin: 1em;
+}
+.main-header {
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+.banner {
+	color: #fff;
+	background: #3acec2;
+	text-align: center;
+	padding: 2em 0;
+}
+
+.main-footer {
+	background: #d9e4ea;
+	padding: 2em 0;
+	margin-top: 30px;
+	text-align: center;
+}
+
+
+/* ---- Page Elements ---- */
+
+.logo {
+	width: 190px;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+
+	.primary {
+		float: left;
+		width: 45%;	
+	
+	}
+
+	.secondary {
+		float: left;
+		width: 50%;
+		margin-right: 1em;
+
+	}
+
+	/* ---- Float clearfix ---- */
+
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+
+}
+
+@media (min-width: 1025px) {
+	.col {
+		float: left;
+	}
+
+	.primary {
+
+		width: 34%;
+		margin-right: 1em;
+	}
+
+	.secondary {
+		width: 30%;
+	}
+
+	.tertiary {
+		width: 30%;
+	}
+
+	.container {
+		max-width: 1150px;
+		margin: 0 auto;
+	}
+
+	.name { 
+		float: left;
+	}
+
+	.main-nav {
+		float: right;
+		margin-top: 1.5em;
+	}
+
+	.main-nav li{
+		display: inline-block;
+		margin-right: 1em;
+	}
+
+}
