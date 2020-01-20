@@ -1,0 +1,106 @@
+/* ================================= 
+  Flexbox
+==================================== */
+
+/* Direction Flex
+
+ .container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 280px; 
+} */ 
+
+/* Flex Wrap / Justify Content
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item-1 {
+  margin-right: auto;
+} */
+
+/* Order */
+
+/* .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item-6 {
+  order: -1;
+}
+
+.item-1 {
+  order: 1;
+}
+
+.item-2 {
+  order: 2;
+} */
+
+/* Growing Flex Items */
+
+/* .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex-grow: 1;
+}
+
+.item-3 {
+  flex-grow: 3;
+}
+
+.item-1 {
+  flex-grow: 4;
+} */
+
+/* Flex-basis and flex */
+
+/* .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  /* flex-grow: 1;
+  flex-basis: 100px; */
+/*
+  flex: 1; /* Flex shorthand for flex-grow, flex-basis, flex-shrink
+} /*
+
+.item-2 {
+  flex: 2;
+} */
+
+
+/* Aligning Flex Items on the Cross Axis */
+
+/* .container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 600px;
+}
+
+.item {
+  flex: 1;
+}
+
+.item-1 {
+  align-self: flex-end;
+}
+
+.item-2 {
+  flex: 2;
+}
+
+.item-4 {
+  align-self: center;
+} */
