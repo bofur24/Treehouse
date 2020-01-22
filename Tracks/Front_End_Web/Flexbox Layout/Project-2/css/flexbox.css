@@ -16,7 +16,15 @@
   }
 
   .col {
-    flex: 1;
+    flex: 1 50%;
+  }
+
+  .row {
+    flex-wrap: wrap;
+  }
+
+  .secondary {
+    order: -1;
   }
 
 }
@@ -28,7 +36,11 @@
     justify-content: space-between;
   }
 
-  .primary {
-    flex: 2;
+  .col {
+    flex-basis: 0;
+  }
+
+  .pramary {
+    flex-grow: 1.4;
   }
 }
