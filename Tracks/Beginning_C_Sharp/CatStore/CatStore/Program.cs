@@ -22,6 +22,11 @@ namespace CatStore
             Thread.Sleep(delay);            
         }
 
+        static double Price(int quantity)
+        {
+            return quantity * 2;
+        }
+
         static void Main(string[] args)
         {
             // Display a welcome message for the sotre
@@ -35,7 +40,8 @@ namespace CatStore
             // Console.WriteLine("You entered " + entry + " cans");  Contat the entry for the user
             //Console.WriteLine($"You entered {entry} cans"); // Interpolation
             int number = int.Parse(entry); // Convert sting to number with parse
-            Console.WriteLine($"For {entry} cans, your total is: ${number * 2}");
+            double total = Price(number);
+            Console.WriteLine($"For {number} cans, your total is: ${total}");
             
             
             
