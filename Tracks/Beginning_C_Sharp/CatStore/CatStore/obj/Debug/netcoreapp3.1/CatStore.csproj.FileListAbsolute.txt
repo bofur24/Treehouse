@@ -1,0 +1,13 @@
+C:\Users\HeffingtonKL\OneDrive\Files\Programming\GitHub\Treehouse\Tracks\Beginning_C_Sharp\CatStore\CatStore\bin\Debug\netcoreapp3.1\CatStore.exe
+C:\Users\HeffingtonKL\OneDrive\Files\Programming\GitHub\Treehouse\Tracks\Beginning_C_Sharp\CatStore\CatStore\bin\Debug\netcoreapp3.1\CatStore.deps.json
+C:\Users\HeffingtonKL\OneDrive\Files\Programming\GitHub\Treehouse\Tracks\Beginning_C_Sharp\CatStore\CatStore\bin\Debug\netcoreapp3.1\CatStore.runtimeconfig.json
+C:\Users\HeffingtonKL\OneDrive\Files\Programming\GitHub\Treehouse\Tracks\Beginning_C_Sharp\CatStore\CatStore\bin\Debug\netcoreapp3.1\CatStore.runtimeconfig.dev.json
+C:\Users\HeffingtonKL\OneDrive\Files\Programming\GitHub\Treehouse\Tracks\Beginning_C_Sharp\CatStore\CatStore\bin\Debug\netcoreapp3.1\CatStore.dll
+C:\Users\HeffingtonKL\OneDrive\Files\Programming\GitHub\Treehouse\Tracks\Beginning_C_Sharp\CatStore\CatStore\bin\Debug\netcoreapp3.1\CatStore.pdb
+C:\Users\HeffingtonKL\OneDrive\Files\Programming\GitHub\Treehouse\Tracks\Beginning_C_Sharp\CatStore\CatStore\obj\Debug\netcoreapp3.1\CatStore.csprojAssemblyReference.cache
+C:\Users\HeffingtonKL\OneDrive\Files\Programming\GitHub\Treehouse\Tracks\Beginning_C_Sharp\CatStore\CatStore\obj\Debug\netcoreapp3.1\CatStore.csproj.CoreCompileInputs.cache
+C:\Users\HeffingtonKL\OneDrive\Files\Programming\GitHub\Treehouse\Tracks\Beginning_C_Sharp\CatStore\CatStore\obj\Debug\netcoreapp3.1\CatStore.AssemblyInfoInputs.cache
+C:\Users\HeffingtonKL\OneDrive\Files\Programming\GitHub\Treehouse\Tracks\Beginning_C_Sharp\CatStore\CatStore\obj\Debug\netcoreapp3.1\CatStore.AssemblyInfo.cs
+C:\Users\HeffingtonKL\OneDrive\Files\Programming\GitHub\Treehouse\Tracks\Beginning_C_Sharp\CatStore\CatStore\obj\Debug\netcoreapp3.1\CatStore.dll
+C:\Users\HeffingtonKL\OneDrive\Files\Programming\GitHub\Treehouse\Tracks\Beginning_C_Sharp\CatStore\CatStore\obj\Debug\netcoreapp3.1\CatStore.pdb
+C:\Users\HeffingtonKL\OneDrive\Files\Programming\GitHub\Treehouse\Tracks\Beginning_C_Sharp\CatStore\CatStore\obj\Debug\netcoreapp3.1\CatStore.genruntimeconfig.cache

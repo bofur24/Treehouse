@@ -1,0 +1,11 @@
+/home/treehouse/workspace/bin/Debug/netcoreapp2.1/workspace.deps.json
+/home/treehouse/workspace/bin/Debug/netcoreapp2.1/workspace.runtimeconfig.json
+/home/treehouse/workspace/bin/Debug/netcoreapp2.1/workspace.runtimeconfig.dev.json
+/home/treehouse/workspace/bin/Debug/netcoreapp2.1/workspace.dll
+/home/treehouse/workspace/bin/Debug/netcoreapp2.1/workspace.pdb
+/home/treehouse/workspace/obj/Debug/netcoreapp2.1/workspace.csprojAssemblyReference.cache
+/home/treehouse/workspace/obj/Debug/netcoreapp2.1/workspace.csproj.CoreCompileInputs.cache
+/home/treehouse/workspace/obj/Debug/netcoreapp2.1/workspace.AssemblyInfoInputs.cache
+/home/treehouse/workspace/obj/Debug/netcoreapp2.1/workspace.AssemblyInfo.cs
+/home/treehouse/workspace/obj/Debug/netcoreapp2.1/workspace.dll
+/home/treehouse/workspace/obj/Debug/netcoreapp2.1/workspace.pdb
