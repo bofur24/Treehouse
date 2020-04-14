@@ -7,8 +7,7 @@ namespace CatStore
     {
         static string Ask(string question)
         {
-            Console.Write(question);
-            Console.Write(" ");
+            Console.Write(question + " "); // Concat a space
             return Console.ReadLine();            
         }
 
@@ -33,8 +32,7 @@ namespace CatStore
 
             // Ask method to get the amount for order from the user
             string entry = Ask("How many cans are you ordering?");
-            Console.WriteLine("_________________");
-            Console.WriteLine(entry);
+            Console.WriteLine("You entered " + entry + " cans"); // Contat the entry for the user
             
             
             
