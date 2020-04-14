@@ -24,7 +24,21 @@ namespace CatStore
 
         static double Price(int quantity)
         {
-            return quantity * 2;
+            double pricePerUnit;
+            if (quantity >= 100)
+            {
+               pricePerUnit = 1.5;
+            }
+            else if (quantity >= 50)
+            {
+               pricePerUnit = 1.75;
+            }
+            else 
+            {
+                pricePerUnit = 2;
+            }
+            return quantity * pricePerUnit;
+            
         }
 
         static void Main(string[] args)
