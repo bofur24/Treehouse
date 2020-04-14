@@ -32,7 +32,8 @@ namespace CatStore
 
             // Ask method to get the amount for order from the user
             string entry = Ask("How many cans are you ordering?");
-            Console.WriteLine("You entered " + entry + " cans"); // Contat the entry for the user
+            // Console.WriteLine("You entered " + entry + " cans");  Contat the entry for the user
+            Console.WriteLine($"You entered {entry} cans"); // Interpolation
             
             
             
