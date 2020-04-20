@@ -8,23 +8,25 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\light\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\HeffingtonKL\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\light\\OneDrive\\Files\\Programming\\GitHub\\Treehouse\\Tracks\\Beginning_C_Sharp\\TreehouseDefense\\TreehouseDefense\\TreehouseDefense.csproj",
+      "projectUniqueName": "C:\\Users\\HeffingtonKL\\OneDrive\\Files\\Programming\\GitHub\\Treehouse\\Tracks\\Beginning_C_Sharp\\TreehouseDefense\\TreehouseDefense\\TreehouseDefense.csproj",
       "projectName": "TreehouseDefense",
-      "projectPath": "C:\\Users\\light\\OneDrive\\Files\\Programming\\GitHub\\Treehouse\\Tracks\\Beginning_C_Sharp\\TreehouseDefense\\TreehouseDefense\\TreehouseDefense.csproj",
-      "packagesPath": "C:\\Users\\light\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\light\\OneDrive\\Files\\Programming\\GitHub\\Treehouse\\Tracks\\Beginning_C_Sharp\\TreehouseDefense\\TreehouseDefense\\obj\\",
+      "projectPath": "C:\\Users\\HeffingtonKL\\OneDrive\\Files\\Programming\\GitHub\\Treehouse\\Tracks\\Beginning_C_Sharp\\TreehouseDefense\\TreehouseDefense\\TreehouseDefense.csproj",
+      "packagesPath": "C:\\Users\\HeffingtonKL\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HeffingtonKL\\OneDrive\\Files\\Programming\\GitHub\\Treehouse\\Tracks\\Beginning_C_Sharp\\TreehouseDefense\\TreehouseDefense\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\light\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HeffingtonKL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
